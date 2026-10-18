@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveFlow</string>
+    <string name="app_full_name">DriveFlow Driver</string>
+    <string name="app_tagline">Smart Driver Assistant</string>
+    <string name="app_description">Reads ride offer screens and shows real-time profit verdicts</string>
+    <string name="accessibility_service_description">DriveFlow reads trip request screens from supported ride-hailing apps (inDrive, Uber, DiDi) to calculate net earnings per kilometer and display color-coded advisory badges without touching your screen or interfering with other apps.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_help">Help</string>
+
+    <!-- License & Status -->
+    <string name="status_active">[PRO] ACTIVE</string>
+    <string name="status_trial">TRIAL</string>
+    <string name="status_free">FREE</string>
+    <string name="badge_pro">[PRO]</string>
+    <string name="device_code_title">Your Device Code</string>
+    <string name="device_code_hint">Share this code to activate your license</string>
+    <string name="copy_device_code">Copy Device Code</string>
+    <string name="code_copied">Device code copied to clipboard</string>
+    <string name="subscription_info">Subscription Details</string>
+    <string name="instapay_account">InstaPay: %1$s</string>
+    <string name="whatsapp_support">WhatsApp Support: %1$s</string>
+    <string name="free_quota_label">Today\'s Free Quota</string>
+    <string name="free_list_quota">List requests: %1$d / %2$d</string>
+    <string name="free_details_quota">Trip details: %1$d / %2$d</string>
+    <string name="paste_license_hint">Paste activation key here (DF1. )</string>
+    <string name="activate_button">Activate Key</string>
+    <string name="language_selection">Language</string>
+    <string name="lang_ar">العربية (مصر)</string>
+    <string name="lang_en">English</string>
+    <string name="days_remaining">%1$d days remaining</string>
+    <string name="subscription_active_until">Subscription active until %1$s (%2$d days left)</string>
+
+    <!-- Activation Errors -->
+    <string name="err_bad_format">Invalid key format. Please ensure you copied the whole token starting with DF1.</string>
+    <string name="err_bad_signature">Key signature verification failed or token was altered. Request a new key from support.</string>
+    <string name="err_wrong_device">This key was issued for a different device code. Verify your phone\'s device code.</string>
+    <string name="err_expired">This license key has expired. Please renew your subscription via WhatsApp.</string>
+    <string name="err_not_yet_valid">Key is not valid yet. Please ensure your device clock is set to automatic network time.</string>
+    <string name="err_clock_tampered">Device clock rollback detected! Reverting to FREE tier until clock is corrected.</string>
+    <string name="activation_success">License activated successfully! Valid through day %1$d.</string>
+
+    <!-- Verdict & Tones -->
+    <string name="tone_green">Highly Profitable</string>
+    <string name="tone_orange">Caution / Negotiate</string>
+    <string name="tone_red">Unprofitable</string>
+    <string name="tone_gray">Incomplete Data</string>
+
+    <!-- Ride Apps -->
+    <string name="app_indrive">inDrive</string>
+    <string name="app_uber">Uber Driver</string>
+    <string name="app_didi">DiDi Driver</string>
+    <string name="supported_apps_title">Supported Apps</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_page1_title">Hello Captain</string>
+    <string name="welcome_page1_desc">DriveFlow is built to protect your hard work, car/motorcycle and fuel. It calculates true net earnings for each ride before you accept or counter-offer.</string>
+    <string name="welcome_page2_title">A Verdict at a Glance</string>
+    <string name="welcome_page2_desc">A clear colored badge appears instantly beside each request:\n  Green: Great profitable ride\n  Orange: Needs negotiation or caution\n  Red: Loss-making, skip it\n  Gray: Waiting for distance details.</string>
+    <string name="welcome_page3_title">Trips on Your Terms</string>
+    <string name="welcome_page3_desc">You set your minimum price per km, your preferred drop-off neighborhoods, and avoided zones, with auto calculation of company commission, fuel, and upkeep for cars and motorcycles.</string>
+    <string name="welcome_page4_title">Good Requests Call You with Sound</string>
+    <string name="welcome_page4_desc">No need to stare at the screen all day. When a top-tier ride meeting all your rules appears, DriveFlow chimes and vibrates immediately.</string>
+    <string name="welcome_page5_title">You Are in Full Control</string>
+    <string name="welcome_page5_desc">The app only reads the screen! It NEVER clicks, accepts, rejects, or negotiates on your behalf. The decision is always 100% yours.</string>
+    <string name="welcome_page6_title">How to Subscribe &amp; Run</string>
+    <string name="welcome_page6_desc">Serverless and offline. Transfer the fee via InstaPay, send your device code on WhatsApp, and receive your offline license key.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+
+    <!-- Consent Screen -->
+    <string name="consent_title">What does DriveFlow read?</string>
+    <string name="consent_subtitle">Full transparency and driver privacy</string>
+    <string name="consent_point1_title">Reads only supported ride apps</string>
+    <string name="consent_point1_desc">Reads trip price, distance, rider rating, pickup and dropoff addresses from inDrive, Uber Driver, and DiDi Driver only.</string>
+    <string name="consent_point2_title">Never touches or taps the screen</string>
+    <string name="consent_point2_desc">The app has no auto-clicking capabilities. It never accepts, rejects, or interferes with other apps.</string>
+    <string name="consent_point3_title">No rider data is stored</string>
+    <string name="consent_point3_desc">All calculations are strictly transient in memory. No rider names, phone numbers, or trips are recorded.</string>
+    <string name="consent_point4_title">Full privacy, no servers</string>
+    <string name="consent_point4_desc">There is no backend server. Nothing leaves your phone except messages you choose to send to the owner via WhatsApp.</string>
+    <string name="btn_agree_continue">I Agree and Continue</string>
+    <string name="btn_view_commitments">Read Full Commitments</string>
+
+    <!-- Contact Screen -->
+    <string name="contact_title">Captain Info for Activation</string>
+    <string name="contact_subtitle">This information is only included in WhatsApp messages you choose to send to the owner to facilitate support and key issuance.</string>
+    <string name="contact_name_label">Captain Name (Letters only)</string>
+    <string name="contact_name_hint">e.g. Ahmed Ali</string>
+    <string name="contact_phone_label">WhatsApp Phone Number</string>
+    <string name="contact_phone_hint">e.g. 01012345678</string>
+    <string name="contact_gov_label">Operating Governorate</string>
+    <string name="contact_gov_select">Select Governorate</string>
+    <string name="btn_save_continue">Save &amp; Continue</string>
+    <string name="err_invalid_name">Please enter a valid name using letters only</string>
+    <string name="err_invalid_phone">Please enter a valid 10 or 11 digit phone number</string>
+    <string name="err_select_gov">Please select your operating governorate</string>
+
+    <!-- Home Screen -->
+    <string name="home_hero_on">DriveFlow is ON &amp; Active</string>
+    <string name="home_hero_off">DriveFlow is Currently Paused</string>
+    <string name="home_hero_sub_on">Analyzing ride requests as they appear on screen</string>
+    <string name="home_hero_sub_off">Tap the switch to start the overlay assistant</string>
+    <string name="row_my_rules">My Rules</string>
+    <string name="row_alerts">Sound Alerts</string>
+    <string name="row_heading_home">Heading Home Mode</string>
+    <string name="row_plan">Subscription Plan</string>
+    <string name="btn_details">Details</string>
+    <string name="setup_checklist_title">Setup Checklist</string>
+    <string name="setup_step1">1. Enable Request Reader (Accessibility)</string>
+    <string name="setup_step2">2. Allow Display over other apps</string>
+    <string name="setup_step3">3. Set My Rules (Min price per km)</string>
+    <string name="keep_reader_running_title">Keep the reader running in background</string>
+    <string name="keep_reader_running_desc">Battery optimization &amp; autostart guide (Xiaomi, Oppo, Samsung)</string>
+
+    <!-- Android 13 Dialog -->
+    <string name="restricted_settings_title">Notice for Android 13+ Devices</string>
+    <string name="restricted_settings_msg">If you see a \"Restricted setting\" dialog when enabling Accessibility:\n1. Open Settings > Apps > DriveFlow Driver\n2. Tap the top-right three dots\n3. Tap \"Allow restricted settings\" and confirm screen lock\n4. Return and enable Accessibility.</string>
+    <string name="btn_understood">Understood, Open Settings</string>
+
+    <!-- Rules / Policy Setup Screen -->
+    <string name="rules_title">Pricing &amp; Filtering Policy</string>
+    <string name="section_vehicle_engine">Vehicle Type &amp; Engine</string>
+    <string name="section_country_price">Country &amp; Price</string>
+    <string name="section_distance">Distances &amp; Pickup</string>
+    <string name="section_rider_payment">Rider Rating &amp; Payments</string>
+    <string name="section_stops_long">Stops &amp; Long Trips</string>
+    <string name="section_car_cost">Vehicle Expenses &amp; Net Profit</string>
+    <string name="section_negotiation">Negotiation Steps</string>
+    <string name="section_apps_enabled">Supported Apps</string>
+
+    <!-- Vehicle Types & Motorcycles -->
+    <string name="vehicle_car">Standard Car</string>
+    <string name="motorcycle_150cc">Motorcycle / Scooter (150cc)</string>
+    <string name="motorcycle_200cc">Motorcycle / Boxer (200cc)</string>
+    <string name="motorcycle_250cc">Motorcycle / Maxi Scooter (250cc)</string>
+    <string name="vehicle_type_label">Vehicle Type &amp; Engine Displacement</string>
+    <string name="vehicle_preset_applied">Fuel consumption &amp; wear benchmark applied for: %1$s</string>
+
+    <string name="field_min_price_per_km">Minimum Price per KM (Required)</string>
+    <string name="field_currency">Currency</string>
+    <string name="field_distance_unit">Distance Unit</string>
+    <string name="field_governorate">Governorate</string>
+    <string name="field_min_total_km">Min total distance (KM)</string>
+    <string name="field_max_total_km">Max total distance (KM)</string>
+    <string name="field_max_trip_km">Max trip distance (KM)</string>
+    <string name="field_max_pickup_km">Max pickup distance (KM)</string>
+    <string name="field_max_pickup_minutes">Max pickup time (minutes)</string>
+    <string name="field_free_pickup_km">Free pickup threshold (KM)</string>
+    <string name="field_min_rider_rating">Min rider rating (0 to 5)</string>
+    <string name="field_min_rider_trips">Min rider trips count</string>
+    <string name="field_max_request_age">Max request age (minutes)</string>
+    <string name="field_allowed_payments">Allowed payment methods</string>
+    <string name="payment_all">All (Cash &amp; Digital)</string>
+    <string name="payment_cash_only">Cash only</string>
+    <string name="field_banned_words">Banned words in rider note</string>
+    <string name="banned_words_hint">Type word and tap Add (e.g. smoke, pet, wait)</string>
+    <string name="field_stops_mode">Extra stops handling</string>
+    <string name="field_stop_fee">Required extra stop fee (EGP)</string>
+    <string name="field_long_trip_mode">Long trips &amp; travel</string>
+    <string name="field_long_trip_km">Long trip threshold (KM)</string>
+    <string name="field_warn_uber_saver">Warn on low Uber Saver rates</string>
+    <string name="field_fuel_cost">Fuel cost per KM (EGP)</string>
+    <string name="field_upkeep_cost">Maintenance &amp; wear cost per KM (EGP)</string>
+    <string name="field_basis_net">Decide verdict based on net profit after commission</string>
+    <string name="field_commission_pct">%1$s commission rate (%%)</string>
+    <string name="field_negotiation_step">Negotiation counter step (default 5)</string>
+    <string name="field_max_offer">Maximum offer cap (EGP)</string>
+    <string name="btn_save_rules">Save Policy</string>
+    <string name="rules_saved_toast">Pricing policy saved successfully</string>
+
+    <!-- Areas Screen -->
+    <string name="areas_title">Preferred &amp; Avoided Areas</string>
+    <string name="avoided_areas_title">Avoided Zones (Red Warning)</string>
+    <string name="preferred_areas_title">Preferred Zones (Priority)</string>
+    <string name="add_area_hint">Enter district or neighborhood name </string>
+    <string name="btn_add">Add</string>
+    <string name="empty_avoided_areas">No avoided zones added yet</string>
+    <string name="empty_preferred_areas">No preferred zones added yet</string>
+    <string name="suggested_districts_title">Suggested districts for your governorate:</string>
+    <string name="confirm_remove_area_title">Remove Area</string>
+    <string name="confirm_remove_area_msg">Are you sure you want to remove \"%1$s\"?</string>
+    <string name="confirm_move_area_title">Move Area</string>
+    <string name="confirm_move_area_msg">Move \"%1$s\" to the other list?</string>
+    <string name="warn_gov_unset">Note: Governorate is not set yet in Contact Info; showing general suggestions.</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">Sound &amp; Vibration Alerts</string>
+    <string name="alert_enable_switch">Enable audible chime on top offers</string>
+    <string name="alert_mode_title">Alert Style</string>
+    <string name="alert_mode_sound">Sound only</string>
+    <string name="alert_mode_sound_vibrate">Sound &amp; Vibration</string>
+    <string name="alert_explanation_title">When does it ring?</string>
+    <string name="alert_explanation_desc">DriveFlow only chimes when an offer receives a Green verdict (highly profitable and fully meets your price, distance, rating, and area rules), allowing you to react safely without staring at the phone.</string>
+    <string name="btn_test_alert">Play Test Alert</string>
+    <string name="test_alert_toast">Played test alert chime</string>
+    <string name="alert_volume_muted_warn">Warning: Device notification volume is muted. Unmute to hear alerts while driving.</string>
+
+    <!-- Home Way Screen -->
+    <string name="homeway_title">Heading Home Mode</string>
+    <string name="homeway_switch">Heading home right now</string>
+    <string name="homeway_switch_desc">DriveFlow will prioritize ride destinations that take you closer to home</string>
+    <string name="homeway_mode_home">Primary Home Location</string>
+    <string name="homeway_mode_place">Specific Destination</string>
+    <string name="homeway_paste_hint">Paste Google Maps link or lat,lon coordinates</string>
+    <string name="homeway_label_hint">Destination label (e.g. My Home in Maadi)</string>
+    <string name="btn_save_destination">Save Destination</string>
+    <string name="btn_clear_destination">Clear</string>
+    <string name="homeway_saved_toast">Destination coordinates saved</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title_header">Display &amp; App Settings</string>
+    <string name="marker_size_label">Request Badge Size</string>
+    <string name="marker_size_small">Small</string>
+    <string name="marker_size_normal">Normal (Default)</string>
+    <string name="marker_size_large">Large</string>
+    <string name="marker_preview_title">Live badge preview:</string>
+    <string name="bar_opacity_label">Floating Bar Opacity (%1$d%%)</string>
+    <string name="bar_preview_title">Live floating bar preview:</string>
+    <string name="bar_pos_title">Bar Position on Screen</string>
+    <string name="bar_pos_auto">Automatic beside ride map</string>
+    <string name="bar_pos_custom">Custom saved coordinates</string>
+    <string name="btn_reset_pos">Reset Position</string>
+    <string name="auto_off_label">Auto-Off Timer when Inactive</string>
+    <string name="auto_off_hours_1">1 Hour</string>
+    <string name="auto_off_hours_3">3 Hours (Default)</string>
+    <string name="auto_off_hours_6">6 Hours</string>
+    <string name="auto_off_never">Never</string>
+    <string name="auto_off_bank_note">Important notice: Some mobile banking apps may refuse to open while Accessibility services are active. Auto-off helps you turn off the reader automatically when your shift ends.</string>
+    <string name="language_row_title">App Language</string>
+    <string name="subscription_row_title">License &amp; Subscription Management</string>
+
+    <!-- Dual Calculation Buttons in Overlay -->
+    <string name="btn_calc_full_trip">🔄 Full Trip (With Pickup)</string>
+    <string name="btn_calc_base_trip">⚡ Base Trip (Excluding Pickup)</string>
+    <string name="overlay_mode_full_hint">Calculates pickup distance to rider + trip destination</string>
+    <string name="overlay_mode_base_hint">Calculates destination trip only, waiving pickup distance</string>
+
+    <!-- Help & About Screen -->
+    <string name="help_title">Help &amp; Support</string>
+    <string name="how_it_works_title">How DriveFlow Works</string>
+    <string name="pillar1_title">1. Colored badge beside each request</string>
+    <string name="pillar1_desc">Instant calculation of price per KM and clear visual indicator.</string>
+    <string name="pillar2_title">2. Floating summary bar</string>
+    <string name="pillar2_desc">A subtle bar over the map showing net profit, total trip distance, and instant switching between full trip or base trip calculation.</string>
+    <string name="pillar3_title">3. You decide</string>
+    <string name="pillar3_desc">DriveFlow never clicks, accepts, or rejects for you.</string>
+    <string name="pillar4_title">4. Sound alerts while driving</string>
+    <string name="pillar4_desc">Distinct chime for golden requests without distracting your vision.</string>
+    <string name="legend_title">Color Legend:</string>
+    <string name="legend_green">Green: Accept, highly profitable trip meeting all rules.</string>
+    <string name="legend_orange">Orange: Think first &amp; negotiate, low rate or extra stop.</string>
+    <string name="legend_red">Red: Skip, loss-making or avoided neighborhood.</string>
+    <string name="legend_gray">Gray: Waiting for distance OCR and trip details.</string>
+    <string name="contact_owner_btn">Contact Owner via WhatsApp</string>
+    <string name="your_registered_info">Your Registered Information</string>
+    <string name="app_version_label">App Version: %1$s</string>
+    <string name="version_tap_hint">Tap 7 times to open Technical Diagnostics</string>
+    <string name="commitments_title">DriveFlow Safety Commitments</string>
+    <string name="how_to_update_title">How to update without losing data</string>
+    <string name="how_to_update_body">When a new release is available, the owner sends the updated APK on WhatsApp or via GitHub Release. Install the new APK directly over your existing app without uninstalling. All your settings, custom policies, and active license activation will be retained automatically because both APKs are signed with the same keystore.</string>
+
+    <!-- Subscribe Screen -->
+    <string name="subscribe_screen_title">Subscription &amp; Activation</string>
+    <string name="subscribe_step1_title">Step 1: InstaPay Transfer</string>
+    <string name="subscribe_step1_desc">Transfer the subscription fee (%1$s) to the owner\'s InstaPay account:</string>
+    <string name="copy_instapay_num">Copy InstaPay Number (%1$s)</string>
+    <string name="instapay_copied">InstaPay number copied</string>
+    <string name="subscribe_step2_title">Step 2: Share Device Code on WhatsApp</string>
+    <string name="subscribe_step2_desc">Tap below to open WhatsApp with your device code prefilled; please attach your InstaPay transfer receipt screenshot.</string>
+    <string name="btn_open_whatsapp_subscribe">Send Device Code &amp; Receipt</string>
+    <string name="subscribe_step3_title">Step 3: Paste &amp; Activate Key</string>
+    <string name="subscribe_step3_desc">Once you receive your license key from support on WhatsApp, paste it below and tap Activate.</string>
+    <string name="token_input_label">Activation Key (DF1. )</string>
+
+    <!-- WhatsApp Support Chat Screen -->
+    <string name="chat_screen_title">Support Chat via WhatsApp</string>
+    <string name="chat_disclaimer">Notice: DriveFlow has no servers. Messages and replies are exchanged directly through your official WhatsApp app.</string>
+    <string name="quick_replies_title">Quick templates:</string>
+    <string name="qr_paid_activate">I paid, please activate me</string>
+    <string name="qr_not_activated">I am not activated yet</string>
+    <string name="qr_renew">I want to renew</string>
+    <string name="qr_reader_issue">Problem reading requests</string>
+    <string name="qr_verdict_wrong">The verdict is wrong</string>
+    <string name="qr_other">Other inquiry</string>
+    <string name="chat_input_hint">Type your message to support </string>
+    <string name="btn_send_whatsapp">Send via WhatsApp</string>
+    <string name="system_chat_response">Replies will arrive directly on WhatsApp on your registered number.</string>
+    <string name="instapay_chat_card_title">Reminder: InstaPay Account Details:</string>
+
+    <!-- Commitments Screen -->
+    <string name="commitments_heading">Things DriveFlow Never Does</string>
+    <string name="commit1_title">1. Never taps or clicks</string>
+    <string name="commit1_desc">The app never taps, accepts, rejects, or negotiates on your behalf. You remain in complete control.</string>
+    <string name="commit2_title">2. Never stores rider details</string>
+    <string name="commit2_desc">We do not store or persist rider names, locations, or passenger information.</string>
+    <string name="commit3_title">3. No server connections</string>
+    <string name="commit3_desc">DriveFlow runs completely offline on your device and sends zero data to external servers.</string>
+    <string name="commit4_title">4. Transparent subscription</string>
+    <string name="commit4_desc">Manual renewal through InstaPay with no surprise auto-billing.</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">Technical Diagnostics</string>
+    <string name="diag_counters_title">Local Diagnostics Counters</string>
+    <string name="diag_counter_captures">Screen captures: %1$d</string>
+    <string name="diag_counter_ocr_fails">OCR failures: %1$d</string>
+    <string name="diag_counter_reads">Total offers read: %1$d</string>
+    <string name="diag_export_settings">Export Settings (JSON)</string>
+    <string name="diag_import_settings">Import Settings (JSON)</string>
+    <string name="diag_ocr_rects_title">Per-App Screen Crop Rectangles (OCR Calibration)</string>
+    <string name="slider_crop_x">Offset X: %1$d</string>
+    <string name="slider_crop_y">Offset Y: %1$d</string>
+    <string name="channel_opportunity_name">Opportunity Alerts</string>
+    <string name="channel_opportunity_desc">Audible chime when profitable requests matching policy appear</string>
+</resources>

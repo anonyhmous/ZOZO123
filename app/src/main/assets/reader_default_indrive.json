@@ -1,0 +1,52 @@
+{
+  "minRevision": 1,
+  "appCode": "indrive",
+  "packageName": "sinet.startup.inDriver",
+  "appVersion": "5.189.0",
+  "idPrefix": "sinet.startup.inDriver:id/",
+  "ids": {
+    "list_recycler": "orders_main_recyclerview_orders",
+    "list_card": "item_order_container",
+    "list_fare": "info_textview_stage_price_view",
+    "list_pickup_distance": "order_info_stage_textview_distance",
+    "list_rider_trips": "driver_common_textview_rating_rides_done",
+    "list_rider_rating": "driver_common_textview_rating",
+    "list_request_age": "item_order_textview_posted_time_ago",
+    "list_from_address": "order_info_textview_from_address",
+    "list_to_address": "order_info_textview_to_addresses",
+    "detail_bottom_sheet": "design_bottom_sheet",
+    "detail_container": "order_info_container",
+    "detail_fare": "info_textview_stage_price_view",
+    "detail_pickup_distance": "order_info_stage_textview_distance",
+    "detail_rider_trips": "driver_common_textview_rating_rides_done",
+    "detail_rider_rating": "driver_common_textview_rating",
+    "detail_request_age": "item_order_textview_posted_time_ago",
+    "detail_from_address": "info_textview_pickup",
+    "detail_to_address": "info_textview_destination",
+    "detail_extra_stops": "info_recyclerview_extra_stops",
+    "detail_rider_note": "order_info_textview_description",
+    "detail_offer_price_button": "bid_btn_price_highlighted",
+    "detail_map": "driver_order_container_map",
+    "detail_map_interceptor": "driver_order_container_map_interceptor"
+  },
+  "fallbacks": {
+    "list_fare": {
+      "alternativeIds": ["tv_price", "price_view", "order_price"],
+      "textPattern": "^(\\d+([.,]\\d+)?)\\s*(ج.م|EGP|LE)?"
+    },
+    "list_pickup_distance": {
+      "alternativeIds": ["tv_distance", "pickup_distance"],
+      "textPattern": "(\\d+([.,]\\d+)?)\\s*(كم|km|متر|m)"
+    },
+    "detail_fare": {
+      "alternativeIds": ["detail_price", "tv_price"],
+      "textPattern": "^(\\d+([.,]\\d+)?)"
+    },
+    "detail_from_address": {
+      "alternativeIds": ["from_address", "pickup_address"]
+    },
+    "detail_to_address": {
+      "alternativeIds": ["to_address", "destination_address"]
+    }
+  }
+}

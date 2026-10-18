@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Graphite Gray Rounded Background -->
+    <path
+        android:fillColor="#181B20"
+        android:pathData="M24,8 L96,8 A16,16 0 0,1 112,24 L112,96 A16,16 0 0,1 96,112 L24,112 A16,16 0 0,1 8,96 L8,24 A16,16 0 0,1 24,8 Z" />
+    <!-- Muted Slate Border -->
+    <path
+        android:strokeColor="#2A2F38"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M24,8 L96,8 A16,16 0 0,1 112,24 L112,96 A16,16 0 0,1 96,112 L24,112 A16,16 0 0,1 8,96 L8,24 A16,16 0 0,1 24,8 Z" />
+    <!-- Outer Map Pin Outline (Racing Orange #FF6B00) -->
+    <path
+        android:strokeColor="#FF6B00"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,25 C45,25 34,36.5 34,51 C34,68 60,95 60,95 C60,95 86,68 86,51 C86,36.5 75,25 60,25 Z" />
+    <!-- Speedometer Gauge Outer Arc (Emerald Green #10B981) -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M44,56 C43,47.5 48.5,39 60,39 C71.5,39 77,47.5 76,56" />
+    <!-- Speedometer Gauge Inner Arc subtle -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="1.4"
+        android:strokeAlpha="0.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,57 C47,51 51,45 60,45 C69,45 73,51 72,57" />
+    <!-- Speedometer Tick Marks -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46.5,48 L50,50 M60,40 L60,44 M73.5,48 L70,50" />
+    <!-- Speedometer Needle (Racing Orange #FF6B00) -->
+    <path
+        android:strokeColor="#FF6B00"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,58 L69,46" />
+    <!-- Center Pivot Dot (Emerald Green #10B981) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M60,55 A3,3 0 1,1 59.9,55 Z" />
+</vector>

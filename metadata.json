@@ -1,0 +1,6 @@
+{
+  "name": "DriveFlow",
+  "description": "Smart driver assistant for ride requests with net profit calculation and floating overlays",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,13 @@
+{
+  "app": "uber",
+  "version": 1,
+  "regions": {
+    "offer_card": { "left": 0.04, "top": 0.42, "right": 0.96, "bottom": 0.94 },
+    "fare": { "left": 0.05, "top": 0.44, "right": 0.55, "bottom": 0.56 },
+    "product": { "left": 0.05, "top": 0.55, "right": 0.65, "bottom": 0.63 },
+    "rating": { "left": 0.65, "top": 0.44, "right": 0.95, "bottom": 0.56 },
+    "distances": { "left": 0.05, "top": 0.63, "right": 0.95, "bottom": 0.77 },
+    "addresses": { "left": 0.05, "top": 0.77, "right": 0.95, "bottom": 0.93 },
+    "detail_route": { "left": 0.05, "top": 0.20, "right": 0.95, "bottom": 0.88 }
+  }
+}
